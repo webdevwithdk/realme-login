@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+   font-family: poppins,sans-serif;
+}
+body{
+    background-color:#2a2a2a;
+}
+.login{
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin: 20vh 30vw;
+    box-shadow: 5px 0px 50px rgb(7, 7, 7);
+}
+.login .button{
+    display: flex;
+    flex-direction: row;
+}
+.login .button input{
+    width: 20vw;
+    height: 8vh;
+    cursor: pointer;
+    border: none;
+    /* border-radius: none; */
+}
+.login .button .first{
+    background-color:#FFC916;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login .button .second{
+    background-color:#3d3d3d;
+    font-weight: bold;
+    color: #FFC916;
+    font-size: 20px;
+}
+.login h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 20px ;
+}
+.login .name {
+    display: flex;
+    justify-content: space-evenly;
+}
+ .name input{
+    width:18vw ;
+    height: 6vh;
+    border: 1px solid #fff;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+}
+.field input{
+    width:38vw;
+    margin:1vh 2vh;
+    height: 6vh;
+    border: 1px solid rgb(105, 105, 105);
+     border-radius:none ;
+    background-color: #070707;
+}
+.field .btn{
+    border: 2px solid #FFC916;
+    width: 38vw;
+    color: #FFC916;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.input::placeholder{
+    color: initial;
+}
